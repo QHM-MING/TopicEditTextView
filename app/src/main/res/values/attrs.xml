@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="UCTopicEditText">
+
+        <!-- 链接高亮的颜色，默认蓝色 -->
+        <attr name="defaultTextColor" format="color" />
+        <attr name="defaultIdentifierColor" format="color" />
+        <attr name="defaultIdentifier" format="string" />
+    </declare-styleable>
+</resources>

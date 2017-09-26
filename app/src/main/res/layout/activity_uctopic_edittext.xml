@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <com.qhm.topic.UCTopicEditText
+        android:id="@+id/ucTopicEditText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#dad"
+        android:gravity="top"
+        app:defaultIdentifier="#"
+        app:defaultIdentifierColor="#f93c11"
+        app:defaultTextColor="#e89a07" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddOne" />
+
+</LinearLayout>
